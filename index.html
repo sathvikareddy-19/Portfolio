@@ -1,72 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>Sathvika | Software Developer</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" href="mediaqueries.css" />
+  <meta charset="UTF-8"/>
+  <title>Sathvika Reddy | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="mediaqueries.css"/>
 </head>
-
 <body>
-  <header class="navbar">
-    <h1 class="logo">Sathvika</h1>
-    <nav>
-      <a href="#about">About</a>
-      <a href="#skills">Skills</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
 
-  <section class="hero">
-    <div class="hero-text">
-      <h2>Hi, I'm <span>Sathvika</span></h2>
-      <p>Software Developer | Problem Solver | Builder</p>
-      <a href="#projects" class="btn">View My Work</a>
-    </div>
-    <img src="PICTURE.jpeg" class="hero-img" />
-  </section>
+<header class="nav">
+  <div class="brand">Sathvika</div>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#exp">Experience</a>
+    <a href="#skills">Skills</a>
+    <a href="#extras">Extras</a>
+    <a href="#contact">Contact</a>
+    <button id="themeBtn" aria-label="toggle theme">🌙</button>
+  </nav>
+</header>
 
-  <section id="about" class="section">
-    <h2>About Me</h2>
-    <p>
-      I am a software developer passionate about building scalable,
-      user-focused applications. I work with Python, Java, Web,
-      and ServiceNow platforms.
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>Sathvika Reddy</h1>
+    <p class="role">Application Developer | Automation Tester</p>
+    <p class="tagline">
+      I design reliable backend systems and automate complex workflows that power large-scale platforms.
     </p>
-  </section>
-
-  <section id="skills" class="section dark">
-    <h2>Skills</h2>
-    <div class="skills-grid">
-      <span>Python</span>
-      <span>Java</span>
-      <span>HTML</span>
-      <span>CSS</span>
-      <span>JavaScript</span>
-      <span>ServiceNow</span>
+    <div class="hero-actions">
+      <a class="btn" href="#exp">View Experience</a>
+      <a class="btn ghost" href="Sathvika_Reddy_Resume.pdf" download>Download Resume</a>
     </div>
-  </section>
+  </div>
+  <div class="hero-img">
+    <img src="PICTURE.jpeg" alt="Sathvika"/>
+  </div>
+</section>
 
-  <section id="projects" class="section">
-    <h2>Projects</h2>
-    <div class="projects-grid">
-      <div class="card">Billing Automation System</div>
-      <div class="card">Portfolio Website</div>
-      <div class="card">ServiceNow Workflow App</div>
+<section id="about" class="section reveal">
+  <h2>About</h2>
+  <p>
+    I’m an Application Developer at IBM working on AT&T billing platforms.
+    I specialize in backend automation, data validation, cloud migration support,
+    and production monitoring for high-volume systems.
+  </p>
+</section>
+
+<section id="exp" class="section dark reveal exp-wrap">
+  <div class="bg-word">IBM</div>
+  <h2>Experience</h2>
+  <div class="exp-card">
+    <h3>IBM — Application Developer (AT&T)</h3>
+    <span>2024 – Present</span>
+    <ul>
+      <li>Built shell automation reducing manual work by 70%</li>
+      <li>Validated data for Azure cloud migration</li>
+      <li>Automated APIs with SOAP UI (3× faster testing)</li>
+      <li>Reduced production issues by 30%</li>
+    </ul>
+  </div>
+</section>
+
+<section id="skills" class="section reveal">
+  <h2>Skills</h2>
+  <div class="chips">
+    <span>Python</span><span>Shell</span><span>SQL</span><span>PL/SQL</span>
+    <span>Azure</span><span>AWS</span><span>GCP</span>
+    <span>Oracle</span><span>Git</span><span>Linux</span><span>SOAP UI</span>
+  </div>
+</section>
+
+<section id="extras" class="section dark reveal">
+  <h2>Music & Hobbies</h2>
+  <div class="extras-grid">
+    <div class="spotify">
+      <iframe
+        src="https://open.spotify.com/embed/user/3143ffluzjeqgays77xbrc4xljne"
+        width="100%" height="352" frameborder="0" allowtransparency="true"
+        allow="encrypted-media"></iframe>
     </div>
-  </section>
+    <div class="hobbies">
+      <div class="card">💃 Dance</div>
+      <div class="card">🎮 Games</div>
+      <div class="card">🎧 Music</div>
+    </div>
+  </div>
+</section>
 
-  <section id="contact" class="section dark">
-    <h2>Contact</h2>
-    <p>Email: yourname@email.com</p>
-    <p>LinkedIn: linkedin.com/in/yourprofile</p>
-  </section>
+<section id="contact" class="section reveal">
+  <h2>Contact</h2>
+  <p>Email: sathvikareddy32@gmail.com</p>
+  <p>Phone: +91 9618419134</p>
+  <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/sathvika-reddy-ba43b21b1" target="_blank">
+      sathvika-reddy
+    </a>
+  </p>
+</section>
 
-  <footer>
-    <p>© 2026 Sathvika</p>
-  </footer>
+<footer>
+  <p>© 2026 Sathvika Reddy</p>
+</footer>
 
-  <script src="script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
